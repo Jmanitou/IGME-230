@@ -76,3 +76,26 @@ li a:hover:not(.active) {
 	margin-top:30px;
 	height:1500px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+
+
+	img {
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 400px;
+	}
+
+	li a {
+		text-align: initial;
+	}
+	
+	h1 {
+		text-align: initial;
+	}
+
+	p {
+		text-align: initial;
+	}
+}
